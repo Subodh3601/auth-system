@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="outer-div">
+        <header id="page-header">
+            <h1><u>Authentication System</u></h1>
+
+            <button class="page-header-button" type="button"><a href="/signup">Sign-Up</a></button>
+            <button class="page-header-button" type="button"><a href="/signin">Sign-In</a></button>
+        </header>
+        <div id="form-div">
+            <h1>App Home</h1>
+
+            <% if(msg=="logout successful" ){%>
+                <P class="msg1">
+                    <%=msg%>
+                </P>
+                <%}else{%>
+                    <P class="msg">
+                        <%=msg%>
+                    </P>
+
+                    <%}%>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

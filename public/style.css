@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color:darkkhaki; */
+    margin: 5% 20% 5% 20%;
+
+}
+#outer-div{
+    background-color:rgb(95, 203, 203);
+    height: 80vh;
+    border: 2px solid;
+}
+#page-header {
+    background-color:azure;  
+    height: 10vh;
+    position: relative;
+    text-align: center;
+
+}
+
+#page-header ul {
+    display: flex;
+    margin-top: 2rem;
+}
+
+#page-header ul li {
+    margin-top: 3%;
+}
+
+#page-header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.page-header-button {
+
+    margin-left: 1.5rem;
+    background-color:darkcyan;
+    border-radius: 5px;
+    padding: 0.2rem;
+    color: white;
+    cursor: pointer;
+}
+#header-div{
+    display: flex;
+    justify-content: center;
+    
+}
+#layout-main{
+    text-align: center;
+    height: 80vh;
+    width: 80vw;
+    margin-inline: auto;
+    background-color: aqua;
+}
+#layout-footer{
+    background-color: olivedrab;
+    height: 10vh;
+}
+#page-div {
+    background-color: aquamarine;
+    margin-inline: 20%;
+    border-radius: 5px;
+
+}
+
+form {
+    /* background-color: gainsboro; */
+    text-align: center;
+}
+
+form input {
+    margin-top: 5%;
+}
+
+form button {
+    margin-top: 5%;
+    font-size: 1.2rem;
+    background-color:darkcyan;
+    padding: 0.3rem;
+    border-radius: 8px;
+}
+.other-button{
+    /* margin-top: 5%; */
+    font-size: 1.2rem;
+    background-color:darkcyan;
+    padding: 0.3rem;
+    border-radius: 8px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#header {
+    text-align: center;
+    margin-top: 10%;
+
+}
+#google{
+    margin-top: 3%;
+    background-color:darkkhaki;
+    width: fit-content;
+    margin-inline: auto;
+    padding: 1rem;
+    border-radius: 8px;
+
+}
+#google a{
+    cursor: pointer;
+    
+}
+#form-div h1{
+    text-align: center;
+    text-decoration:underline;
+
+}
+.msg{
+    background-color: crimson;
+    color: white;
+    margin-top: 1rem;
+    text-align: center;
+}
+.msg1{
+    background-color:darkolivegreen;
+    color: white;
+    margin-top: 1rem;
+    text-align: center;
+}
